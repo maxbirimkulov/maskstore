@@ -7,7 +7,7 @@ function App() {
             <h3>Lorem ipsum dolor sit amet.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, nobis.</p>
         </div>
-    );
+  );
 }
 
 export default App;

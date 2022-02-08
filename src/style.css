@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.container{
+    max-width: 1600px;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+:root{
+    --black : #2B2A2A;
+    --gradient-blue:  linear-gradient(180deg, #6C69FF 0%, #4F4BFF 100%);
+    --gradient-yellow:linear-gradient(180deg, #FFD360 0%, #FFCF53 99.99%, rgba(196, 196, 196, 0) 100%, #F3C141 100%);
+    --blue: #4945FF;
+    --red: #F34141;
+    --gray-bg: #F7F7F8;
+    --gray-text:#676767
+}
+
