@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
 
         <h3>Lorem ipsum dolor sit amet.</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, nobis.</p>
-
+        <Footer/>
     </div>
   );
 }
