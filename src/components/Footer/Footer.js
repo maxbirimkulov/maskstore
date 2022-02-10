@@ -1,11 +1,10 @@
 import React from 'react';
 import './footer.css'
-import call from '../assets/icons/footer/call.svg'
-import mail from '../assets/icons/footer/mail.svg'
-import marker from '../assets/icons/footer/marker.svg'
-import visa from '../assets/icons/footer/visa.svg'
-import user from '../assets/icons/footer/user.svg'
-import retailer from '../assets/icons/footer/retailer.png'
+import call from '../../assets/icons/footer/call.svg'
+import mail from '../../assets/icons/footer/mail.svg'
+import marker from '../../assets/icons/footer/marker.svg'
+import user from '../../assets/icons/footer/user.svg'
+import retailer from '../../assets/icons/footer/retailer.png'
 
 
 
