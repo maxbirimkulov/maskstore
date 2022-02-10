@@ -1,10 +1,12 @@
 import React from 'react'
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import "./style.css";
 
 function App() {
   return (
     <div className="App">
-
+      <Header/>
       <h1>Начало сайта по респираторным маскам</h1>
 
         <h3>Lorem ipsum dolor sit amet.</h3>
