@@ -1,11 +1,13 @@
 import React from 'react';
-import Footer from "../../components/Footer/Footer";
+import FirstScreen from './FirstScreen/FirstScreen';
+import Opt from './Opt/Opt';
 
 const Home = () => {
     return (
-        <div>
-
-        </div>
+        <main>
+            <FirstScreen/>
+            <Opt/>
+        </main>
     );
 };
 
