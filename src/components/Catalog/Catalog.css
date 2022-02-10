@@ -1,0 +1,191 @@
+.Catalog{
+    background: #F7F7F8;
+    padding: 70px 0 74px 0;
+}
+.Catalog__card{
+    display: flex;
+    margin-bottom: 50px;
+}
+.Catalog__title{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #2B2A2A;
+    margin-right: 65px;
+    position: relative;
+}
+.Catalog__options{
+    margin-bottom: 50px;
+}
+.Catalog__title::before{
+    content: '';
+    position: absolute;
+    width: 433px;
+    height: 8px;
+    background: rgba(73, 69, 255, 0.3);
+    top: 31px;
+}
+.Catalog__oll{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 139px;
+    height: 45px;
+    background: linear-gradient(180deg, #6D6AFF 0%, #4D49FF 100%);
+    border-radius: 10px;
+    border: none;
+    margin-right: 30px;
+}
+.Catalog__brend{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #676767;
+    border: 2px solid #4D49FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 116px;
+    height: 45px;
+}
+.Catalog__btn{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #676767;
+    background: #E5E5E7;
+    border-radius: 10px;
+    width: 92px;
+    height: 45px;
+    border: none;
+    margin-right: 20px;
+}
+.Catalog__maks-span{
+    display: inline-block;
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background: linear-gradient(180deg, #FFD360 0%, #FFCF53 99.99%, rgba(196, 196, 196, 0) 100%, #F3C141 100%);
+    border-radius: 10px;
+    padding: 10px 13px;
+    position: absolute;
+    top: 260px;
+    left: 200px;
+}
+.Catalog__mask-card{
+    position: relative;
+}
+.Catalog__mask{
+    background-color: white;
+    padding: 0 24px 30px 0;
+    display: inline-block;
+    border-radius: 10px;
+}
+.Catalog__size-title{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B2A2A;
+    margin-bottom: 10px;
+}
+.Catalog__mask-card{
+    margin-bottom: 20px;
+}
+.Catalog__prise{
+    display: flex;
+    column-gap: 10px;
+    margin: 23px 22px;
+}
+.Catalog__prise-silver{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: line-through;
+    color: #676767;
+}
+.Catalog__prise-red{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F34141;
+}
+.Catalog__choice{
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+.Catalog__choice-btn{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #2B2A2A;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 60px;
+    height: 45px;
+    background-color: transparent;
+}
+.Catalog__shop{
+    display: flex;
+    column-gap: 20px;
+}
+.Catalog__shop-btn{
+    background: linear-gradient(180deg, #716FFF 0%, #4945FF 100%);
+    border-radius: 10px;
+    width: 162.24px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+}
+.Catalog__shop-basket{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+}
+.Catalog__shop-btns{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #4945FF;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #4945FF;
+}
