@@ -15,7 +15,7 @@ const FirstScreen = () => {
                 <div className="first-screen__row">
                     <div className="first-screen__left">
                         <h1 className="first-screen__title">Сертифицированные <br/> маски-респираторы</h1>
-                        <p className="first-screen__subtitle">В наличии с доставкой за 2 часа и оплатой по факту
+                        <p className="first-screen__subtitle">В наличии с доставкой за 2 часа и оплатой <br/> по факту
                             получения</p>
                         <div className="first-screen__left_row">
                             <div className="first-screen__left_card">
