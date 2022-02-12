@@ -18,7 +18,6 @@ const Home = () => {
          <Messages/>
          <Express/>
         </>
-    );
+    )
 };
-
 export default Home;
