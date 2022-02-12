@@ -1,8 +1,9 @@
 .opt{
+    height: 515px;
+}
+.opt__row {
     display: flex;
     justify-content: space-between;
-    height: 515px;
-    padding: 0 29px;
 }
 .opt__info{
     padding: 120px 0;
