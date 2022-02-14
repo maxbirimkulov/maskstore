@@ -1,0 +1,115 @@
+.form{
+    padding: 70px 124px 70px 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    row-gap: 20px;
+}
+.mask{
+    position: absolute;
+   right: -300px;
+    top: -45px;
+}
+
+.form-title{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #2B2A2A;
+}
+.form__subtitle{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #2B2A2A;
+}
+
+.form__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    position: relative;
+}
+
+.form__form-block{
+    display: flex;
+    column-gap: 30px;
+
+}
+
+.form__form-label-input{
+    width: 370px;
+    height: 55px;
+    background: #F7F7F8;
+    border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #676767;
+    padding-left: 22px;
+    border: blue 1px solid;
+    outline: none;
+}
+.form__form-label-input-comment{
+    background: #F7F7F8;
+    border-radius: 10px;
+    width: 770px;
+    height: 114px;
+    padding-left: 22px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #676767;
+    outline: none;
+    border: 1px solid blue;
+    padding-bottom: 80px;
+}
+.form__textArea{
+    background: #F7F7F8;
+    border-radius: 10px;
+    width: 770px;
+    height: 114px;
+    padding-left: 22px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #676767;
+    outline: none;
+    border: 1px solid blue;
+    padding-top: 20px;
+}
+.form__btn{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #F7F7F8;
+    background: linear-gradient(180deg, #716FFF 0%, #4945FF 100%);
+    border-radius: 10px;
+    width: 178px;
+    height: 55px;
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+}
+.form__btn:hover{
+    transition: .5s;
+    opacity: 80%;
+}
